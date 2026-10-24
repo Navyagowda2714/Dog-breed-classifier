@@ -19,12 +19,41 @@ src="https://capsule-render.vercel.app/api?type=waving&color=0:070A12,45:1E3A8A,
 
 <br/><br/>
 
+<a href="#-quickstart"><b>Quickstart</b></a> •
 <a href="#-project-overview"><b>Overview</b></a> •
 <a href="#-model-pipeline"><b>Pipeline</b></a> •
 <a href="#-results"><b>Results</b></a> •
 <a href="#-contact"><b>Contact</b></a>
 
 </div>
+
+---
+
+
+<!-- quickstart:start -->
+# 🚀 Quickstart
+
+[![notebooks](https://github.com/Navyagowda2714/Dog-breed-classifier/actions/workflows/notebooks.yml/badge.svg)](https://github.com/Navyagowda2714/Dog-breed-classifier/actions/workflows/notebooks.yml)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Navyagowda2714/Dog-breed-classifier/blob/main/DogBreedClassifier%20(1).ipynb)
+
+The easiest way to run it is **Open in Colab** (free GPU: *Runtime → Change runtime type → GPU*). The notebook downloads the dog and human-face image datasets itself.
+
+**Run locally** (Python 3.10+, a GPU is strongly recommended for training):
+
+```bash
+git clone https://github.com/Navyagowda2714/Dog-breed-classifier.git
+cd Dog-breed-classifier
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+jupyter notebook "DogBreedClassifier (1).ipynb"
+```
+
+| File | What it is |
+|---|---|
+| `DogBreedClassifier (1).ipynb` | Final notebook: face/dog detectors, CNN from scratch, ResNet50 transfer learning, predictions |
+| `dog_app.ipynb` | Earlier working version of the project notebook |
+| `DogBreedClassifier.ipynb - Colab (1).pdf` | PDF export with all outputs, readable without running anything |
+<!-- quickstart:end -->
 
 ---
 
